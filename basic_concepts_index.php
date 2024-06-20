@@ -41,6 +41,7 @@
         // }
 
     // second case:
+        # if the case($age<3, or another) match with the condition(true) get the ouput.
     $outputAge = match (true) {
         $age<3 => "Eres un bebe,$name 👶🏼",
         $age < 11 => "Eres un niño,$name 🧒🏽",
